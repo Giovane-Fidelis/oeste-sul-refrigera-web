@@ -47,8 +47,8 @@ const AboutSection = () => {
           <div className="relative">
             <div className="aspect-square rounded-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81"
-                alt="Equipe Oestesul Refrigeração"
+                src="/lovable-uploads/1fa6f955-18e2-4504-8f72-511db321bce6.png"
+                alt="Equipamentos Thermo King"
                 className="w-full h-full object-cover"
               />
             </div>
