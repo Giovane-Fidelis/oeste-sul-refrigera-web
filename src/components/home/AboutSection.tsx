@@ -47,7 +47,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="aspect-square rounded-lg overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1566142020488-2a8298cbb56b?q=80&w=1974&auto=format&fit=crop"
+                src="/images/team-working.jpg"
                 alt="Equipe Oestesul Refrigeração"
                 className="w-full h-full object-cover"
               />

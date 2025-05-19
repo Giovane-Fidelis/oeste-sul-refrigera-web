@@ -38,6 +38,7 @@ const Servicos = () => {
         "Testes de eficiência e segurança",
         "Treinamento operacional para a equipe",
       ],
+      imageUrl: "/images/installation-service.jpg"
     },
     {
       id: 2,
@@ -51,6 +52,7 @@ const Servicos = () => {
         "Diagnóstico preciso de falhas",
         "Relatórios técnicos detalhados",
       ],
+      imageUrl: "/images/maintenance-service.jpg"
     },
     {
       id: 3,
@@ -64,6 +66,7 @@ const Servicos = () => {
         "Garantia estendida",
         "Suporte técnico especializado",
       ],
+      imageUrl: "/images/equipment-sales.jpg"
     },
     {
       id: 4,
@@ -77,6 +80,7 @@ const Servicos = () => {
         "Projetos com foco em eficiência energética",
         "Soluções adaptadas ao orçamento",
       ],
+      imageUrl: "/images/custom-projects.jpg"
     },
     {
       id: 5,
@@ -90,6 +94,7 @@ const Servicos = () => {
         "Implementação de tecnologias ecológicas",
         "Monitoramento de desempenho",
       ],
+      imageUrl: "/images/energy-efficiency.jpg"
     },
     {
       id: 6,
@@ -103,6 +108,7 @@ const Servicos = () => {
         "Alertas automáticos de falhas",
         "Integração com sistemas existentes",
       ],
+      imageUrl: "/images/automation-systems.jpg"
     },
   ];
 
@@ -188,7 +194,7 @@ const Servicos = () => {
                   </div>
                   <div className="rounded-lg overflow-hidden shadow-lg">
                     <img
-                      src={`https://source.unsplash.com/random/600x400/?refrigeration,${service.title}`}
+                      src={service.imageUrl}
                       alt={service.title}
                       className="w-full h-full object-cover"
                     />

@@ -46,7 +46,7 @@ const Sobre = () => {
               <div className="relative">
                 <div className="aspect-square rounded-lg overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1531973576160-7125cd663d86?q=80&w=1770&auto=format&fit=crop"
+                    src="/images/company-history.jpg"
                     alt="História da Oestesul Refrigeração"
                     className="w-full h-full object-cover"
                   />
