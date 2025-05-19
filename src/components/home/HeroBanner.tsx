@@ -10,7 +10,7 @@ const HeroBanner = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-blend-multiply opacity-20"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1561808843-7adeb9606939?q=80&w=1920')",
           backgroundColor: "#0f172a"
         }}
       />
