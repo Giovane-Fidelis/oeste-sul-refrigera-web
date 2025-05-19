@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import {
   Settings,
-  Tool,
+  Wrench,
   ShoppingBag,
   ClipboardCheck,
   Zap,
@@ -44,7 +44,7 @@ const Servicos = () => {
       title: "Manutenção Preventiva e Corretiva",
       description:
         "Serviços de manutenção que garantem o funcionamento eficiente e prolongam a vida útil dos seus equipamentos de refrigeração.",
-      icon: <Tool size={40} className="text-primary" />,
+      icon: <Wrench size={40} className="text-primary" />,
       points: [
         "Planos de manutenção personalizados",
         "Atendimento emergencial 24 horas",

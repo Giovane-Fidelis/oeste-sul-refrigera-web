@@ -2,7 +2,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Settings, Tool, ShoppingBag, ClipboardCheck, Zap } from "lucide-react";
+import { Settings, Wrench, ShoppingBag, ClipboardCheck, Zap } from "lucide-react";
 
 const ServicesSection = () => {
   const services = [
@@ -16,7 +16,7 @@ const ServicesSection = () => {
       id: 2,
       title: "Manutenção",
       description: "Serviços de manutenção preventiva e corretiva para garantir o funcionamento contínuo dos seus equipamentos.",
-      icon: <Tool size={36} className="text-primary" />,
+      icon: <Wrench size={36} className="text-primary" />,
     },
     {
       id: 3,
