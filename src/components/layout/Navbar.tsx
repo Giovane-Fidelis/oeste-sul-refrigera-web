@@ -33,18 +33,17 @@ const Navbar = () => {
     { name: "Sobre Nós", path: "/sobre" },
     { name: "Serviços", path: "/servicos" },
     { name: "Contato", path: "/contato" },
-    { name: "Blog", path: "/blog" },
   ];
 
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-white shadow-md py-2" : "bg-transparent py-4"
+        scrolled ? "bg-white shadow-md py-2" : "bg-primary text-white py-4"
       }`}
     >
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <Logo className="h-12 w-auto" />
+          <Logo className={`h-12 w-auto ${!scrolled ? "text-white" : ""}`} />
         </Link>
 
         {/* Desktop Navigation */}
@@ -53,12 +52,14 @@ const Navbar = () => {
             <Link
               key={item.name}
               to={item.path}
-              className="px-4 py-2 text-primary font-medium hover:text-primary/80 transition-colors"
+              className={`px-4 py-2 font-medium hover:opacity-80 transition-colors ${
+                scrolled ? "text-primary" : "text-white"
+              }`}
             >
               {item.name}
             </Link>
           ))}
-          <Button className="ml-4" asChild>
+          <Button className={`ml-4 ${!scrolled ? "bg-white text-primary hover:bg-white/90" : ""}`} asChild>
             <Link to="/contato" className="flex items-center gap-2">
               <Phone size={18} />
               <span className="hidden lg:inline">Orçamento</span>
@@ -68,7 +69,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-primary p-2"
+          className={`md:hidden p-2 ${scrolled ? "text-primary" : "text-white"}`}
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
