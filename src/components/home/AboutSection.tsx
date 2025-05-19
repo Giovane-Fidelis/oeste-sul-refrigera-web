@@ -47,7 +47,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="aspect-square rounded-lg overflow-hidden">
               <img
-                src="/images/team-working.jpg"
+                src="/placeholder.svg"
                 alt="Equipe Oestesul Refrigeração"
                 className="w-full h-full object-cover"
               />

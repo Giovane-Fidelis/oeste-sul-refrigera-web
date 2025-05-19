@@ -10,7 +10,8 @@ const HeroBanner = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-blend-multiply opacity-20"
         style={{
-          backgroundImage: "url('/images/commercial-refrigeration.jpg')",
+          backgroundImage: "url('/placeholder.svg')",
+          backgroundColor: "#0f172a"
         }}
       />
       <div className="container mx-auto relative z-10 py-20">

@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -46,7 +45,7 @@ const Sobre = () => {
               <div className="relative">
                 <div className="aspect-square rounded-lg overflow-hidden">
                   <img
-                    src="/images/company-history.jpg"
+                    src="/placeholder.svg"
                     alt="História da Oestesul Refrigeração"
                     className="w-full h-full object-cover"
                   />

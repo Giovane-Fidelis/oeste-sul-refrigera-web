@@ -10,7 +10,8 @@ const CtaSection = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-blend-multiply"
         style={{
-          backgroundImage: "url('/images/refrigeration-technician.jpg')",
+          backgroundImage: "url('/placeholder.svg')",
+          backgroundColor: "#0f172a"
         }}
       ></div>
       <div className="container relative z-10">
