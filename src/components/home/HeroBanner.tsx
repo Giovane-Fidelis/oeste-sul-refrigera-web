@@ -10,7 +10,7 @@ const HeroBanner = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-blend-multiply opacity-20"
         style={{
-          backgroundImage: "url('/placeholder.svg')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1500375592092-40eb2168fd21')",
           backgroundColor: "#0f172a"
         }}
       />

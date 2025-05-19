@@ -10,7 +10,7 @@ const CtaSection = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat bg-blend-multiply"
         style={{
-          backgroundImage: "url('/placeholder.svg')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1504893524553-b855bce32c67')",
           backgroundColor: "#0f172a"
         }}
       ></div>

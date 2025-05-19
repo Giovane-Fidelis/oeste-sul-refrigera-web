@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -26,7 +27,7 @@ const Servicos = () => {
         "Testes de eficiência e segurança",
         "Treinamento operacional para a equipe",
       ],
-      imageUrl: "/placeholder.svg"
+      imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475"
     },
     {
       id: 2,
@@ -40,7 +41,7 @@ const Servicos = () => {
         "Relatórios detalhados dos serviços realizados",
         "Atendimento emergencial 24 horas",
       ],
-      imageUrl: "/placeholder.svg"
+      imageUrl: "https://images.unsplash.com/photo-1504893524553-b855bce32c67"
     },
     {
       id: 3,
@@ -54,7 +55,7 @@ const Servicos = () => {
         "Entrega e instalação inclusas",
         "Garantia estendida disponível",
       ],
-      imageUrl: "/placeholder.svg"
+      imageUrl: "https://images.unsplash.com/photo-1487958449943-2429e8be8625"
     },
     {
       id: 4,
@@ -68,7 +69,7 @@ const Servicos = () => {
         "Acompanhamento da execução do projeto",
         "Consultoria para otimização de custos",
       ],
-      imageUrl: "/placeholder.svg"
+      imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d"
     },
     {
       id: 5,
@@ -82,7 +83,7 @@ const Servicos = () => {
         "Monitoramento contínuo do consumo",
         "Relatórios de economia de energia",
       ],
-      imageUrl: "/placeholder.svg"
+      imageUrl: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b"
     },
     {
       id: 6,
@@ -96,7 +97,7 @@ const Servicos = () => {
         "Acesso remoto via web ou aplicativo",
         "Integração com outros sistemas prediais",
       ],
-      imageUrl: "/placeholder.svg"
+      imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
     },
   ];
 
@@ -148,7 +149,7 @@ const Servicos = () => {
                         <img
                           src={service.imageUrl}
                           alt={service.title}
-                          className="rounded-lg mb-4"
+                          className="rounded-lg mb-4 aspect-video object-cover w-full"
                         />
                         <p className="text-muted-foreground mb-4">{service.description}</p>
                       </div>
