@@ -38,7 +38,9 @@ const Navbar = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-white shadow-md py-2" : "bg-primary text-white py-4"
+        scrolled 
+          ? "bg-white shadow-md py-2" 
+          : "bg-primary text-white py-4 border-b-2 border-white"
       }`}
     >
       <div className="container mx-auto flex justify-between items-center">
