@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Logo from "@/components/layout/Logo";
+import { navItems } from "./navbarData";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,13 +28,6 @@ const Navbar = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  const navItems = [
-    { name: "Página Inicial", path: "/" },
-    { name: "Sobre Nós", path: "/sobre" },
-    { name: "Serviços", path: "/servicos" },
-    { name: "Contato", path: "/contato" },
-  ];
 
   return (
     <header
